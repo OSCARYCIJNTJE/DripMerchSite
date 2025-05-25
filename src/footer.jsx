@@ -1,10 +1,11 @@
+import logo from './assets/Drip logo outer.svg'
 
 function Footer(){
       return (
         <>
           <footer className="d-flex align-items-center justify-content-evenly">
             <div className="Logo">
-                <h1>Logo</h1>
+                <img src={logo} alt="" />
             </div>
             
             <div className="links">
@@ -15,8 +16,9 @@ function Footer(){
             </div>
             <div className="contacts">
                 <ul>
-                    <li>Email</li>
-                    <li>Number</li>
+                    <li><b>Email : </b>drip@hotmal.com</li>
+                    <li></li>
+                    <li><b>Number : </b>00000000</li>
                 </ul>
             </div>
           </footer>

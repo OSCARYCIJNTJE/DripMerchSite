@@ -1,11 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import logo from './assets/Drip logo outer.svg'
 
 function Nav(){
     return(
         <>
         <nav className='d-flex justify-content-evenly align-items-center'>
             <div className="Logo">
-                <h1>Logo</h1>
+                <img src={logo} alt="" />
             </div>
 
             <div className="links">
