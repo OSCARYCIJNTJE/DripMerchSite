@@ -9,12 +9,14 @@ function Footer(){
             </div>
             
             <div className="links">
+                <h4>Check More</h4>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Products</a></li>
                 </ul>
             </div>
             <div className="contacts">
+                <h4>Questions? Contact Us</h4>
                 <ul>
                     <li><b>Email : </b>drip@hotmal.com</li>
                     <li></li>

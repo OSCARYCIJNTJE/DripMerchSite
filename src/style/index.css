@@ -55,3 +55,6 @@ footer ul{
   flex-direction: column;
   align-items: baseline;
 }
+footer h4{
+  padding: .5rem !important;
+}
